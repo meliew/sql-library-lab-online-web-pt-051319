@@ -18,4 +18,4 @@ INSERT INTO characters (id, name, species, motto, series_id author_id) VALUES
 (5, "B", "dog", "Goodbye", 1, 1),
 (6, "R44", "robot", "Hello", 2, 2),
 (7, "Cat", "cat", "Adios", 2, 1),
-(8, "Mr. Cat", "cat", "See ya", 1, 2),
+(8, "Mr. Cat", "cat", "See ya", 1, 2);
