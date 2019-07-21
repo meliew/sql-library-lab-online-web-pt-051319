@@ -10,7 +10,7 @@ INSERT INTO books (id, title, year, series_id) VALUES
 (5, "Second Book", 2021, 1),
 (6, "Last Book", 2022, 1);
 
-INSERT INTO characters (id, name, species, motto, series_id author_id) VALUES 
+INSERT INTO characters (id, name, species, motto, series_id author_id) VALUES
 (1, "Tree", "plant", "I like apples", 1, 1),
 (2, "L13", "robot", "Where am I?", 2, 2),
 (3, "Grass", "plant", "Books are boring", 1, 1),
