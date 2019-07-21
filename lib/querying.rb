@@ -36,14 +36,9 @@ end
 
 def select_character_names_and_number_of_books_they_are_in
 
-  #characters includes name, characters have a series id, then in series there are books
-  #character name, series id from character
-  #then series_id join with the series table
-  #then find the name of books with the series
   "SELECT characters.name, COUNT(name) FROM character_books
-
   INNER JOIN characters ON characters.id = = character_books.character.id
   GROUP BY characters.name
   ORDER BY COUNT(name)
-  DESC"
+  DESC:"
 end
