@@ -37,8 +37,8 @@ end
 def select_character_names_and_number_of_books_they_are_in
 
   #characters includes name, characters have a series id, then in series there are books
-  "SELECT characters.name , COUNT(name) 
-  
+  "SELECT characters.name , COUNT(name)
+
   LEFT OUTER JOIN series ON characters.series_id = series.id
   WHERE series.books"
 end
