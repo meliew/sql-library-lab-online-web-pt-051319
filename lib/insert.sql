@@ -1,13 +1,13 @@
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES
-(1, "Plants", 1, 1),
-(2, "Starry Wars", 1, 2);
+(1, "Lord of The Rings", 1, 1),
+(2, "Star Wars", 1, 2);
 
 INSERT INTO books (id, title, year, series_id) VALUES
-(1, "First Book", 2020, 1),
-(2, "Starry Wars: Part 1", 2011, 2),
-(3, "Starry Wars: Part 2", 2013, 2),
-(4, "Starry Wars: Part 3", 2014, 2),
-(5, "Second Book", 2021, 1),
+(1, "Fellowship of the Ring", 2020, 1),
+(2, "Star Wars: Part 1", 2011, 2),
+(3, "Star Wars: Part 2", 2013, 2),
+(4, "Star Wars: Part 3", 2014, 2),
+(5, "Return of the King", 2021, 1),
 (6, "Last Book", 2022, 1);
 
 INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
