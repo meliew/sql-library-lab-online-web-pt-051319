@@ -23,3 +23,7 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
 INSERT INTO subgenres (id, name) VALUES
 (1, "plants"),
 (2, "space");
+
+INSERT INTO authors (id, name) VALUES 
+(1, "Mel W"),
+(2, "Martin L");
