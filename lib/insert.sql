@@ -28,21 +28,20 @@ INSERT INTO authors (id, name) VALUES
 (1, "Tolkien"),
 (2, "George Lucas");
 
-INSERT INTO character_books (id, book_id, character_id) VALUES 
-(1, 1, 1), 
-(2, 1, 2), 
-(3, 2, 2), 
-(4, 3, 2), 
-(5, 1, 3), 
-(6, 2, 3), 
-(7, 3, 3), 
+INSERT INTO character_books (id, book_id, character_id) VALUES
+(1, 1, 1),
+(2, 1, 2),
+(3, 2, 2),
+(4, 3, 2),
+(5, 1, 3),
+(6, 2, 3),
+(7, 3, 3),
 (8, 1, 4)
-(9, 1, 1), 
-(10, 1, 2), 
-(11, 2, 2), 
-(12, 3, 2), 
-(13, 1, 3), 
-(14, 2, 3), 
-(15, 3, 3), 
+(9, 1, 1),
+(10, 1, 2),
+(11, 2, 2),
+(12, 3, 2),
+(13, 1, 3),
+(14, 2, 3),
+(15, 3, 3),
 (16, 1, 4)
-
