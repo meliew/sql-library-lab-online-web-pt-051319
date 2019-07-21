@@ -20,6 +20,6 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
 (7, "Cat", "cat", "Adios", 2, 1),
 (8, "Mr. Cat", "cat", "See ya", 1, 2);
 
-INSERT INTO subgenres (id, name) VALUES 
-(1, "plants"), 
+INSERT INTO subgenres (id, name) VALUES
+(1, "plants"),
 (2, "space");
