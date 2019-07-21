@@ -24,6 +24,6 @@ INSERT INTO subgenres (id, name) VALUES
 (1, "plants"),
 (2, "space");
 
-INSERT INTO authors (id, name) VALUES 
+INSERT INTO authors (id, name) VALUES
 (1, "Mel W"),
 (2, "Martin L");
